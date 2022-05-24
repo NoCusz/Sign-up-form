@@ -90,3 +90,52 @@ html {
 .center {
     background-color: white;
 }
+
+.center-wrapper {
+    flex: 1;
+    display: flex;
+    max-width: 30vw;
+    min-width: 30vw;
+}
+
+h3 {
+    margin-left: 3vw;
+    margin-top: 1vw;
+    font-size: 1.5rem;
+}
+
+.inputs-left,
+.inputs-right {
+    justify-content: space-around;
+    flex: 1;
+    margin-left: 3vw;
+}
+
+label,
+input,
+.inputs-left,
+.inputs-right,
+.center {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+}
+
+input {
+    min-width: 14vw;
+    height: 3.5vh;
+    padding-left: 5px;
+    border-radius: 5px;
+    border: 1px solid #E5E7EB;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid rgb(0, 89, 255);
+    box-shadow: 8px 8px 24px -12px rgba(66, 68, 90, 1);
+    
+}
