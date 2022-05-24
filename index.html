@@ -47,8 +47,9 @@
 
                         <div>
                             <label for="user-password">PASSWORD</label>
-                            <input type="password" id="user-password" name="password">
+                            <input type="password" id="user-password" class="error" name="password">
                         </div>
+    
                     </div>
 
                     <div class="inputs-right">
@@ -62,14 +63,19 @@
                         </div>
                         <div>
                             <label for="confirm-password">CONFIRM PASSWORD</label>
-                            <input type="password" id="confirm-password" name="password">
+                            <input type="password" id="confirm-password" class="error" name="password">
                         </div>
                     </div>
                 </div>
-
+                <p class="error-message">*Passwords do not match</p>
                 
             </div>
-            <div class="bottom"></div>
+            <div class="bottom">
+                <div class="bottom-wrapper">
+                    <button type="button" class="btn-account">Create Account</button>
+                    <p>Already have an account? <a href="#" id="log-in">Log in</a></p>
+                </div>
+            </div>
         </div>
 
     </div>

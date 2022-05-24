@@ -64,7 +64,7 @@ html {
     display: flex;
     flex-direction: column;
     flex: 2;
-    background-color: rgba(211, 211, 211, 0.4)
+    background-color: rgba(211, 211, 211, 0.4);
 }
 
 .top,
@@ -138,4 +138,39 @@ input:focus {
     border: 1px solid rgb(0, 89, 255);
     box-shadow: 8px 8px 24px -12px rgba(66, 68, 90, 1);
     
+}
+
+.error-message {
+    color: red;
+    font-size: 0.8rem;
+    margin-left: 3vw;
+    margin-bottom: 2vh;
+    position: relative;
+}
+
+.error {
+    border: 1px solid red;
+}
+
+.bottom-wrapper {
+    margin-left: 3vw;
+    margin-top: 2vh;
+}
+
+.btn-account {
+    margin-bottom: 3vh;
+    border: none;
+    color: white;
+    background-color: #596D48;
+    padding: 15px 60px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+#log-in {
+    color: #596D48;
+    text-decoration: none;
+    font-weight: bold;
 }
